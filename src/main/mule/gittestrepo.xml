@@ -7,5 +7,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="gittestrepoFlow" doc:id="a59f7227-2473-4f9b-9d49-68e21f30978c" >
 		<http:listener doc:name="Listener" doc:id="ad5c7b22-62ba-4b13-9a5b-a8f3ee50ada4" />
 		<logger level="INFO" doc:name="Logger" doc:id="58c9fde4-c6a3-498d-a799-c77dc89fe954" />
+		<http:request method="GET" doc:name="Request" doc:id="e6d22c8a-4b1f-42fd-903b-2272ccfb8d65" />
 	</flow>
 </mule>
